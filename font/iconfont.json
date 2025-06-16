@@ -1,0 +1,37 @@
+{
+  "id": "4934002",
+  "name": "个人站",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13779563",
+      "name": "新建图形导航栏-音乐图标-01-01",
+      "font_class": "xinjiantuxingdaohanglan-yinletubiao--",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "13779564",
+      "name": "新建图形导航栏-音乐图标-关闭-01-01",
+      "font_class": "xinjiantuxingdaohanglan-yinletubiao-guanbi--",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "20885004",
+      "name": "右键",
+      "font_class": "youjian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "42213094",
+      "name": "左键",
+      "font_class": "zuojian",
+      "unicode": "e7f7",
+      "unicode_decimal": 59383
+    }
+  ]
+}

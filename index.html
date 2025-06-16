@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品展示</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/lc_lightbox.css">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/sequence-theme.mono.css.map">
+    <link rel="stylesheet" href="css/sequence-theme.mono.min.css">
+    <link rel="stylesheet" href="css/sequence-theme.mono.css">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            /* width: 100%; */
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="videobox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#" class="active">首页</a>
+                            <a href="#">个人介绍页</a>
+                            <a href="#">技能</a>
+                            <a href="#">图标</a>
+                            <a href="#">字体设计</a>
+                            <a href="#">软件设计</a>
+                            <div class="imgbox1">
+                                <img id="audio-control" src="./img/p1/route.png" alt="">
+                                <span class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="vidobody">
+                        <div id="oneUiImg" class="bodybiao animate__animated animate__fadeInLeft">
+                            <img src="./img/p1/UI.png" alt="" class="ui">
+                            <img src="./img/p1/biaoti1.png" alt="" class="heqi">
+                        </div>
+                        <div id="oneTitle" class="bodylin animate__animated   animate__fadeInRight">
+                            <div class="linbox1">
+                                <p class="yelowenel">
+                                    Personal Station Design
+                                </p>
+                                <p class="gerenzhan">个人站设计</p>
+                            </div>
+                            <p class="heqiwenzi">和棋</p>
+                        </div>
+                        <div id="oneSun" class="vidoright animate__animated
+                        animate__fadeIn">
+                            <img src="./img/p1/sun.png" alt="" class="sun">
+                        </div>
+                    </div>
+                </div>
+                <video src="./video/bgc.mp4" muted autoplay loop width="100%"></video>
+            </div>
+            <div class="swiper-slide">
+                <div class="towbox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#">首页</a>
+                            <a href="#" class="active">个人介绍页</a>
+                            <a href="#">技能</a>
+                            <a href="#">图标</a>
+                            <a href="#">字体设计</a>
+                            <a href="#">软件设计</a>
+                            <div class="imgbox1">
+                                <img src="./img/p1/route.png" alt="">
+                                <span id="audio-control"
+                                    class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="centerbox">
+                        <div id="twoImp" class="cent animate__animated">
+                            <img src="./img/p2/imp.png" alt="">
+                        </div>
+                        <div id="twoOneimg" class="onefont animate__animated">
+                            <div class="oneimg">
+                                <img src="./img/p2/one.png" alt="">
+                            </div>
+                            <div class="onefotn">
+                                <h3>个人网站</h3>
+                                <p>视觉化内容 图片 交互设计 为主，注重界面美观和作品分类清晰集中呈现个人优势作品或思想，提升个人在网络中的可见度</p>
+                            </div>
+                        </div>
+                        <div id="twoThreeimg" class="threefont animate__animated">
+                            <div class="threeimg">
+                                <img src="./img/p2/three.png" alt="">
+                            </div>
+                            <div class="threefotn">
+                                <h3>个人技能</h3>
+                                <p>平面类：PS AI C4D <br> 视频类：AE PR 剪映 <br> 代码类：Visual Studio Code</p>
+                            </div>
+                        </div>
+                        <div id="twoTwoimg" class="twofont animate__animated">
+                            <div class="twoimg">
+                                <img src="./img/p2/two.png" alt="">
+                            </div>
+                            <div class="twofotn">
+                                <h3>个人信息</h3>
+                                <p>姓名：和棋 <br> 出生日期：2006.06.30 <br> 联系方式：xxxxxxxxxxx</p>
+                            </div>
+                        </div>
+                        <div id="twoFourimg" class="fourfont animate__animated">
+                            <div class="fourimg">
+                                <img src="./img/p2/four.png" alt="">
+                            </div>
+                            <div class="fourfotn">
+                                <h3>个人信息</h3>
+                                <p>我的个人爱好丰富多元，尤其钟情于三件事—— 在虚拟世界里解锁冒险、用脚步丈量山川湖海，以及用镜头定格时光碎片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="threebox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#">首页</a>
+                            <a href="#">个人介绍页</a>
+                            <a href="#" class="active">技能</a>
+                            <a href="#">图标</a>
+                            <a href="#">字体设计</a>
+                            <a href="#">软件设计</a>
+                            <div class="imgbox1">
+                                <img src="./img/p1/route.png" alt="">
+                                <span id="audio-control"
+                                    class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="jinengbox">
+                        <div id="threeTitle" class="jileft animate__animated">
+                            <p>技<br>能<br>软<br>件</p>
+                            <div class="jileftfont">
+                                和<br>棋<br>个<br>人<br>站
+                            </div>
+                        </div>
+                        <div id="threeContent" class="jicenter animate__animated">
+                            <div class="yi">
+                                <img src="./img/p3/one.png" alt="" class="allnumber">
+                                <img src="./img/p3/ps.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/two.png" alt="" class="allnumber">
+                                <img src="./img/p3/ai.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/three.png" alt="" class="allnumber">
+                                <img src="./img/p3/ae.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/four.png" alt="" class="allnumber">
+                                <img src="./img/p3/xd.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/five.png" alt="" class="allnumber">
+                                <img src="./img/p3/rp.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/six.png" alt="" class="allnumber">
+                                <img src="./img/p3/c4d.png" alt="" class="allap">
+                            </div>
+                            <div class="yi">
+                                <img src="./img/p3/seven.png" alt="" class="allnumber">
+                                <img src="./img/p3/pr.png" alt="" class="allap">
+                            </div>
+                        </div>
+                        <div id="threeBird" class="jiright animate__animated">
+                            <img src="./img/p3/bird.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="fourbox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#">首页</a>
+                            <a href="#">个人介绍页</a>
+                            <a href="#">技能</a>
+                            <a href="#" class="active">图标</a>
+                            <a href="#">字体设计</a>
+                            <a href="#">软件设计</a>
+                            <div class="imgbox1">
+                                <img src="./img/p1/route.png" alt="">
+                                <span id="audio-control"
+                                    class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="fourGif" class="iconbox animate__animated">
+                        <div class="iconleft">
+                            <img src="./img/p4/peploe.gif" alt="">
+                        </div>
+                        <div id="fourContent" class="content animate__animated">
+                            <a class="elem ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="0.5s"
+                                href="img/p4/图标1.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/图标1.png"> <span
+                                    style="background-image: url(img/p4/oneIcon.png)"></span> </a>
+                            <a class="elem ani" swiper-animate-effect="rotateInDownRight" swiper-animate-delay="0.5s"
+                                href="img/p4/图标2.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/图标2.png"> <span
+                                    style="background-image: url(img/p4/threeIcon.png)"></span> </a>
+                            <a class="elem ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="0.5s"
+                                href="img/p4/游戏启动icon.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/游戏启动icon.png"> <span
+                                    style="background-image: url(img/p4/twoIcon.png)"></span> </a>
+                            <a class="elem ani" swiper-animate-effect="rotateInDownRight" swiper-animate-delay="0.5s"
+                                href="img/p4/美食星球.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/美食星球.png"> <span
+                                    style="background-image:url(img/p4/fourIcon.png)"></span> </a>
+                            <a class="elem ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="0.5s"
+                                href="img/p4/迷梦精灵.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/迷梦精灵.png"> <span
+                                    style="background-image: url(img/p4/fiveIcon.png)"></span> </a>
+                            <a class="elem ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="0.5s"
+                                href="img/p4/命运秘境.png" data-lcl-txt="创作于2025-6-30" data-lcl-author="游戏图标"
+                                data-lcl-thumb="img/p4/命运秘境.png"> <span
+                                    style="background-image: url(img/p4/sixIcon.png)"></span> </a>
+                        </div>
+                        <img src="img/p4/xin.png" class="xin xin1 flash animated infinite" alt="">
+                        <img src="img/p4/xin.png" class="xin xin2 flash animated infinite" alt="">
+                        <img src="img/p4/xin.png" class="xin xin3 flash animated infinite" alt="">
+                        <img src="img/p4/xin.png" class="xin xin4 flash animated infinite" alt="">
+                        <img src="img/p4/xin.png" class="xin xin5 flash animated infinite" alt="">
+                        <img src="img/p4/xin.png" class="xin xin6 flash animated infinite" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="fivebox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#">首页</a>
+                            <a href="#">个人介绍页</a>
+                            <a href="#">技能</a>
+                            <a href="#">图标</a>
+                            <a href="#" class="active">字体设计</a>
+                            <a href="#">软件设计</a>
+                            <div class="imgbox1">
+                                <img src="./img/p1/route.png" alt="">
+                                <span id="audio-control"
+                                    class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="sequence" class="seq animate__animated">
+                        <ul class="seq-canvas">
+
+                            <li class="seq-step1 seq-valign seq-in">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/alpe1.png"
+                                        alt="A cartoon illustration of a bunch of bananas" width="389" height="300"
+                                        srcset="img/p5/alpe1.png 1x, img/p5/alpe1.png 2x" />
+                                    <h2 data-seq class="seq-title">Alpe</h2>
+                                </div>
+                            </li>
+                            <li class="seq-step2 seq-valign seq-in">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/element1.png"
+                                        alt="A cartoon illustration of a bunch of bananas" width="389" height="300"
+                                        srcset="img/p5/element1.png 1x, img/p5/element1.png 2x" />
+                                    <h2 data-seq class="seq-title">Element</h2>
+                                </div>
+                            </li>
+
+                            <li class="seq-step3 seq-valign">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/Lenovo1.png"
+                                        alt="A cartoon illustration of a round orange" width="350" height="300"
+                                        srcset="img/p5/Lenovo1.png 1x, img/p5/Lenovo1.png 2x" />
+                                    <h2 data-seq class="seq-title">Lenovo</h2>
+                                </div>
+                            </li>
+                            <li class="seq-step4 seq-valign">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/meet1.png"
+                                        alt="A cartoon illustration of a round orange" width="350" height="300"
+                                        srcset="img/p5/meet1.png 1x, img/p5/meet1.png 2x" />
+                                    <h2 data-seq class="seq-title">Meet Fresh</h2>
+                                </div>
+                            </li>
+                            <li class="seq-step5 seq-valign">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/planb1.png"
+                                        alt="A cartoon illustration of a round orange" width="350" height="300"
+                                        srcset="img/p5/planb1.png 1x, img/p5/planb1.png 2x" />
+                                    <h2 data-seq class="seq-title">Planb</h2>
+                                </div>
+                            </li>
+                            <li class="seq-step6 seq-valign">
+                                <div class="seq-vcenter">
+                                    <img data-seq class="seq-feature" src="img/p5/茶百道1.png"
+                                        alt="A cartoon illustration of a round orange" width="350" height="300"
+                                        srcset="img/p5/茶百道1.png 1x, img/p5/茶百道1.png 2x" />
+                                    <h2 data-seq class="seq-title">ChaBaiDao</h2>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <fieldset class="seq-nav" aria-label="Slider buttons" aria-controls="sequence">
+
+                            <button type="button" class="seq-prev" aria-label="Previous">
+                                <span class="iconfont icon-zuojian"></span>
+                            </button>
+
+                            <ul role="navigation" aria-label="Pagination" class="seq-pagination">
+                                <li class="seq-current">
+                                    <a href="#step1" rel="step1" title="Go to bananas">
+                                        <img src="img/p5/alpe1.png" alt="Bananas" width="50" height="40" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step2" rel="step2" title="Go to coconut">
+                                        <img src="img/p5/element1.png" alt="Coconut" width="50" height="40" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step3" rel="step3" title="Go to orange">
+                                        <img src="img/p5/Lenovo1.png" alt="Orange" width="50" height="40" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step4" rel="step3" title="Go to orange">
+                                        <img src="img/p5/meet1.png" alt="Orange" width="50" height="40" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step5" rel="step3" title="Go to orange">
+                                        <img src="img/p5/planb1.png" alt="Orange" width="50" height="40" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step6" rel="step3" title="Go to orange">
+                                        <img src="img/p5/茶百道1.png" alt="Orange" width="50" height="40" />
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="seq-next" aria-label="Next">
+                                <span class="iconfont icon-youjian"></span>
+                            </button>
+
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="sixbox">
+                    <header>
+                        <div class="biaotou">
+                            <a href="#">首页</a>
+                            <a href="#">个人介绍页</a>
+                            <a href="#">技能</a>
+                            <a href="#">图标</a>
+                            <a href="#">字体设计</a>
+                            <a href="#" class="active">软件设计</a>
+                            <div class="imgbox1">
+                                <img src="./img/p1/route.png" alt="">
+                                <span id="audio-control"
+                                    class="iconfont icon-xinjiantuxingdaohanglan-yinletubiao--"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="appsixbox1" class="appbigbox  animate__animated">
+                        <div class="appBox ani" swiper-animate-effect="flipInY" swiper-animate-delay="0.5s">
+                            <div class="swiper-container" id="app">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/p6/1.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/2.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/3.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/4.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/5.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/6.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/7.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/8.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/9.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/10.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/11.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/12.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/p6/13.png" alt=""></div>
+                                </div>
+                                <!-- 如果需要导航按钮 -->
+                                <div class="swiper-button-prev appLeft"></div>
+                                <div class="swiper-button-next appRight"></div>
+                            </div>
+                        </div>
+                        <img src="img/p6/ipone.png" class="mobile ani" swiper-animate-effect="zoomIn"
+                            swiper-animate-delay="0.3s" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    </div>
+    <audio id="audio" loop src="./music/music.MP3"></audio>
+    <!-- <audio id="audio"></audio> -->
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-1.7.2.min.js"></script>
+    <script src="./js/lc_lightbox.lite.min.js"></script>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/hammer.min.js"></script>
+    <script src="./js/sequence.min.js"></script>
+    <!-- <script src="./js/sequence-theme.mono.js"></script> -->
+    <script src="./js/sequence-theme.mono.min.js"></script>
+    <script src="./js/my.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                // loop: true,
+            },
+        });
+
+        //  监听滚动事件
+        swiper.on('scroll', function () {
+            //  获取当前页面的索引
+            let index = swiper.activeIndex;
+            //  获取当前页面的元素
+            let slides = swiper.slides[index];
+            //  将每一页的动画名称存入数组
+            // let animateList = ["animate__bounce", "animate__fadeInRight", "animate__fadeInUp", "animate__fadeInDown", "animate__fadeInLeft", "animate__fadeInRight"]
+            let animateArr = [
+                {
+                    oneUiImg: "animate__fadeInLeft",
+                    oneTitle: "animate__fadeInRight",
+                    oneSun: "animate__fadeIn",
+                }, {
+                    twoImp: "animate__flipInX",
+                    twoOneimg: "animate__fadeInLeftBig",
+                    twoThreeimg: "animate__fadeInLeftBig",
+                    twoTwoimg: "animate__fadeInRightBig",
+                    twoFourimg: "animate__fadeInRightBig",
+                }, {
+                    threeTitle: "animate__backInLeft",
+                    threeContent: "animate__fadeInUp",
+                    threeBird: "animate__bounceInRight",
+                }, {
+                    fourGif: "animate__pulse",
+                    fourContent: "animate__backInRight",
+                }, {
+                    sequence: "animate__bounce",
+                }, {
+                    appsixbox1: "animate__rubberBand",
+                }
+            ]
+            animateArr.forEach((item, idx) => {
+                // 判断 给当前显示的页面添加动画
+                if (idx === index) {
+                    Object.keys(item).forEach((key) => {
+                        slides.querySelector(`#${key}`).classList.add(item[key])
+                    })
+                }
+            })
+        });
+
+    </script>
+
+</body>
+
+</html>

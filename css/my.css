@@ -1,0 +1,837 @@
+@font-face {
+    font-family: "myfont";
+    src: url('../font/李旭科毛笔行书.TTF');
+}
+
+@font-face {
+    font-family: "hefont";
+    src: url('../font/方正粗黑宋简体.ttf');
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.videobox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 24px;
+    z-index: 999;
+}
+
+.biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.biaotou a {
+    /* 鼠标移上显示小手 */
+    cursor: pointer;
+    color: #333;
+    width: 100%;
+}
+
+.videobox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.biaotou .active {
+    color: #cdad7e;
+    background-image: url('../img/p1/zhuangshi.png');
+    background-repeat: no-repeat;
+    background-position-y: 66px;
+    background-position-x: 34px;
+    background-size: 100px;
+}
+
+
+.biaotou .imgbox1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    position: absolute;
+
+}
+
+.biaotou .imgbox1 {
+    position: absolute;
+    right: 70px;
+}
+
+.biaotou .icon-xinjiantuxingdaohanglan-yinletubiao-- {
+    font-size: 25px;
+    line-height: 107px;
+    margin-left: 10px;
+}
+
+.vidobody .bodybiao .ui {
+    width: 250px;
+    /* margin-left: 30px; */
+    display: inline-block;
+}
+
+.vidobody .bodybiao .heqi {
+    width: 40px;
+    /* margin-left: 150px; */
+    display: inline-block;
+
+}
+
+.vidobody .vidoright .sun {
+    width: 100px;
+    /* margin-left: 1200px; */
+    display: inline-block;
+}
+
+.vidobody .bodylin {
+    width: 500px;
+    height: 160px;
+    /* 创建边框 */
+    /* border: #333 solid 1px; */
+    display: inline-block;
+    margin-top: 220px;
+    margin-left: -100px;
+}
+
+.videobox .vidobody {
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.videobox .vidobody .bodybiao {
+    float: left;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.videobox .vidobody .vidoright {
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.vidobody .bodylin .yelowenel {
+    color: #cdad7e;
+    font-family: "hefont";
+    /* 字间距 */
+    letter-spacing: 2px;
+    font-size: 36px;
+    float: left;
+}
+
+.vidobody .bodylin .gerenzhan {
+    color: #333;
+    font-family: "hefont";
+    /* 字间距 */
+    letter-spacing: 2px;
+    font-size: 36px;
+    float: left;
+    margin-top: 5px;
+}
+
+.vidobody .bodylin .linbox1 {
+    width: 500px;
+    height: 100px;
+    border-bottom: 2px solid #000;
+}
+
+.vidobody .bodylin .heqiwenzi {
+    color: #333;
+    font-family: "hefont";
+    /* 字间距 */
+    letter-spacing: 2px;
+    font-size: 36px;
+    float: left;
+    margin-top: 10px;
+}
+
+/* 第二页 */
+
+.towbox .biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.towbox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.towbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 20px;
+    z-index: 998;
+
+    background-image: url(../img/p2/bgc.png);
+    /* width: 960px; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.towbox .centerbox .cent img {
+    width: 400px;
+    height: 400px;
+}
+
+.towbox .centerbox .cent {
+    width: 400px;
+    height: 400px;
+    /* 居中 */
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 第二页第一段 */
+
+.towbox .centerbox .onefont .oneimg img {
+    width: 150px;
+    height: 150px;
+}
+
+.towbox .centerbox .onefont {
+    position: relative;
+}
+
+.towbox .centerbox .onefont .oneimg {
+    position: absolute;
+    top: -450px;
+    left: 500px;
+}
+
+.towbox .centerbox .onefotn h3 {
+    font-size: 40px;
+    color: #333;
+}
+
+.towbox .centerbox .onefotn p {
+    color: #333;
+    display: inline-block;
+    width: 350px;
+    /* border: 1px solid #000; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.towbox .centerbox .onefotn {
+    position: absolute;
+    top: -400px;
+    left: 80px;
+    text-align: right;
+}
+
+/* 第二页第三段 */
+
+.towbox .centerbox .threefont .threeimg img {
+    width: 150px;
+    height: 150px;
+}
+
+.towbox .centerbox .threefont {
+    position: relative;
+}
+
+.towbox .centerbox .threefont .threeimg {
+    position: absolute;
+    top: -100px;
+    left: 500px;
+}
+
+.towbox .centerbox .threefotn h3 {
+    font-size: 40px;
+    color: #333;
+}
+
+.towbox .centerbox .threefotn p {
+    color: #333;
+    display: inline-block;
+    width: 200px;
+    /* border: 1px solid #000; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.towbox .centerbox .threefotn {
+    position: absolute;
+    top: -150px;
+    left: 280px;
+    text-align: right;
+}
+
+/* 第二页第二段 */
+
+.towbox .centerbox .twofont .twoimg img {
+    width: 150px;
+    height: 150px;
+}
+
+.towbox .centerbox .twofont {
+    position: relative;
+}
+
+.towbox .centerbox .twofont .twoimg {
+    position: absolute;
+    top: -450px;
+    left: 800px;
+}
+
+.towbox .centerbox .twofotn h3 {
+    font-size: 40px;
+    color: #333;
+}
+
+.towbox .centerbox .twofotn p {
+    color: #333;
+    display: inline-block;
+    width: 200px;
+    /* border: 1px solid #000; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.towbox .centerbox .twofotn {
+    position: absolute;
+    top: -400px;
+    left: 950px;
+    text-align: left;
+}
+
+/* 第二页第四段 */
+
+.towbox .centerbox .fourfont .fourimg img {
+    width: 150px;
+    height: 150px;
+}
+
+.towbox .centerbox .fourfont {
+    position: relative;
+}
+
+.towbox .centerbox .fourfont .fourimg {
+    position: absolute;
+    top: -100px;
+    left: 800px;
+}
+
+.towbox .centerbox .fourfotn h3 {
+    font-size: 40px;
+    color: #333;
+}
+
+.towbox .centerbox .fourfotn p {
+    color: #333;
+    display: inline-block;
+    width: 350px;
+    /* border: 1px solid #000; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.towbox .centerbox .fourfotn {
+    position: absolute;
+    top: -150px;
+    left: 950px;
+    text-align: left;
+}
+
+/* 第三页 */
+
+/* 表头 */
+.threebox .biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.threebox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.threebox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 20px;
+    z-index: 998;
+
+    background-image: url(../img/p3/bgc.png);
+    /* width: 960px; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+/* 第三页内容 */
+.threebox .jinengbox {
+    display: flex;
+}
+
+.threebox .jinengbox .jileft {
+    display: flex;
+    width: 180px;
+    height: 300px;
+    /* border: #333 solid 1px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+
+.threebox .jinengbox .jileft p {
+    font-size: 60px;
+    color: #333;
+}
+
+.threebox .jinengbox .jileft .jileftfont {
+    font-family: "hefont";
+    color: #cdad7e;
+    font-size: 25px;
+    width: 50px;
+    height: 160px;
+    border-left: #333 solid 2px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.threebox .jinengbox .jiright img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    /* margin-top: -400px; */
+    overflow: hidden;
+}
+
+.threebox .jinengbox .jicenter {
+    width: 1000px;
+    height: 450px;
+    /* border: 1px solid #000; */
+    /* position: relative; */
+    /* top: -300px;
+    left: 300px; */
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.threebox .jinengbox .jicenter .yi {
+    width: 200px;
+    height: 200px;
+}
+
+.threebox .jinengbox .jicenter .yi {
+    /* border: 1px solid #000; */
+    width: 200px;
+    height: 200px;
+    /* position: absolute; */
+    flex-wrap: nowrap;
+}
+
+.threebox .jinengbox .jicenter .yi .allnumber {
+    width: 60px;
+    height: 60px;
+}
+
+.threebox .jinengbox .jicenter .yi .allap {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    cursor: pointer;
+}
+
+/* 添加图片旋转动画效果 */
+.threebox .jinengbox .jicenter .yi .allap {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /* 添加过渡效果 */
+}
+
+.threebox .jinengbox .jicenter .yi .allap:hover {
+    transform: rotateY(360deg);
+    /* 鼠标悬停时旋转360度 */
+}
+
+/* 第四页 */
+/* 表头 */
+.fourbox .biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.fourbox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fourbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 20px;
+    z-index: 998;
+
+    background-image: url(../img/p4/img.png);
+    /* width: 960px; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+/* 内容 */
+.fourbox .iconbox .iconleft {
+    position: absolute;
+}
+
+.fourbox .iconbox .iconleft img {
+    width: 200px;
+    position: relative;
+    top: 450px;
+}
+
+/* icon */
+.fourbox .content {
+    width: 1230px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+
+.elem,
+.elem * {
+    box-sizing: border-box;
+}
+
+.elem {
+    display: inline-block;
+    width: 25%;
+    border: 10px solid transparent;
+    padding: 8px;
+    height: auto;
+    background-clip: padding-box;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.elem>span {
+    display: block;
+    cursor: pointer;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+}
+
+.elem>span:after {
+    content: "点击查看大图";
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background: radial-gradient(#333, transparent 65%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 259px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.elem>span:hover:after {
+    opacity: 1;
+}
+
+.page4 .xin {
+    position: absolute;
+    width: 100px;
+}
+
+.page4 .xin1 {
+    left: -200px;
+    top: -30px;
+}
+
+.page4 .xin2 {
+    left: -80px;
+    top: 280px;
+    width: 70px;
+}
+
+.page4 .xin3 {
+    left: -300px;
+    top: 500px;
+}
+
+.page4 .xin4 {
+    right: -200px;
+    top: 500px;
+    width: 80px;
+}
+
+.page4 .xin5 {
+    right: -130px;
+    top: 300px;
+    width: 50px;
+}
+
+.page4 .xin6 {
+    right: -100px;
+    top: 50px;
+}
+
+.page4 .xin7 {
+    left: 270px;
+    top: 330px;
+    width: 80px;
+}
+
+.xin1.animated {
+    animation-duration: 4s;
+}
+
+.xin2.animated {
+    animation-duration: 5s;
+}
+
+.xin3.animated {
+    animation-duration: 6s;
+}
+
+.xin4.animated {
+    animation-duration: 7s;
+}
+
+.xin5.animated {
+    animation-duration: 6s;
+}
+
+.xin6.animated {
+    animation-duration: 7s;
+}
+
+.xin7.animated {
+    animation-duration: 5s;
+}
+
+/* 第五页 */
+
+/* 表头 */
+.fivebox .biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.fivebox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fivebox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 20px;
+    z-index: 998;
+
+    background-image: url(../img/p5/img.png);
+    /* width: 960px; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+/* 内容 */
+.fivebox .seq {
+    font-family: "hefont";
+}
+
+.fivebox .seq-prev .icon-zuojian {
+    font-size: 30px;
+}
+
+.fivebox .seq-next .icon-youjian {
+    font-size: 30px;
+}
+
+/* 第六页 */
+
+/* 表头 */
+.sixbox .biaotou {
+    height: 107px;
+    line-height: 107px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.sixbox header {
+    width: auto;
+    height: 107px;
+    border-bottom: #cdad7e solid 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sixbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "myfont";
+    width: 100%;
+    font-size: 20px;
+    z-index: 998;
+
+    background-image: url(../img/p6/bgc.png);
+    /* width: 960px; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.appbigbox {
+    position: relative;
+    height: calc(100vh - 107px);
+    top: -45px;
+}
+
+.towbox .centerbox .cent img {
+    width: 400px;
+    height: 400px;
+}
+
+.towbox .centerbox .cent {
+    width: 400px;
+    height: 400px;
+    /* 居中 */
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 内容 */
+.appBox {
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.appBox .swiper-container {
+    width: 825px;
+    height: 600px;
+    overflow: visible;
+    margin-left: 230px;
+    margin-top: 12px;
+}
+
+.swiper-slide {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.appBox .swiper-container img {
+    width: 100%;
+}
+
+.appBox .swiper-container .swiper-slide {
+    width: 333px;
+    height: 592px;
+}
+
+.mobile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -330px;
+    z-index: 2;
+    pointer-events: none;
+    width: 400px;
+}
+
+.appBox .swiper-button-next,
+.appBox .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    line-height: 50px;
+    font-family: "黑体";
+    font-size: 30px;
+}
+
+.appBox .swiper-button-next:after {
+    content: ">";
+}
+
+.appBox .swiper-button-prev:after {
+    content: "<";
+}
+
+.appBox .swiper-button-next {
+    right: -80px;
+}
+
+.appBox .swiper-button-prev {
+    left: -80px;
+}

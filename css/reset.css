@@ -1,0 +1,32 @@
+/* 清除默认内外边距和列表样式 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+/* 重置超链接颜色 去掉下划线 */
+a{
+    color: #666;
+    text-decoration: none;
+}
+/* 设置正文文字三属性 颜色 大小 字体 */
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei',
+    'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif !important;
+    font-size: 14px;
+    color: #666;
+}
