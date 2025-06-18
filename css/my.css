@@ -153,6 +153,8 @@
     font-size: 36px;
     float: left;
     margin-top: 10px;
+    width: 100%;
+    text-align: left;
 }
 
 /* 第二页 */
@@ -202,8 +204,12 @@
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
+}
+
+.towbox-content {
+    position: absolute;
 }
 
 /* 第二页第一段 */
@@ -214,14 +220,25 @@
 }
 
 .towbox .centerbox .onefont {
-    position: relative;
+    top: 0;
+    left: -400px;
+    overflow: hidden;
+    width: 510px;
+}
+
+.towbox .centerbox .onefont>div {
+    float: left;
 }
 
 .towbox .centerbox .onefont .oneimg {
+    margin-left: 10px;
+}
+
+/* .towbox .centerbox .onefont .oneimg {
     position: absolute;
     top: -450px;
     left: 500px;
-}
+} */
 
 .towbox .centerbox .onefotn h3 {
     font-size: 40px;
@@ -232,17 +249,16 @@
     color: #333;
     display: inline-block;
     width: 350px;
-    /* border: 1px solid #000; */
     font-size: 18px;
     line-height: 30px;
 }
 
-.towbox .centerbox .onefotn {
+/* .towbox .centerbox .onefotn {
     position: absolute;
     top: -400px;
     left: 80px;
     text-align: right;
-}
+} */
 
 /* 第二页第三段 */
 
@@ -251,7 +267,23 @@
     height: 150px;
 }
 
+/* 改 */
 .towbox .centerbox .threefont {
+    top: 260px;
+    left: -260px;
+    overflow: hidden;
+    width: 510px;
+}
+
+.towbox .centerbox .threefont>div {
+    float: left;
+}
+
+.towbox .centerbox .threefont .oneimg {
+    margin-left: 10px;
+}
+
+/* .towbox .centerbox .threefont {
     position: relative;
 }
 
@@ -259,7 +291,7 @@
     position: absolute;
     top: -100px;
     left: 500px;
-}
+} */
 
 .towbox .centerbox .threefotn h3 {
     font-size: 40px;
@@ -275,12 +307,12 @@
     line-height: 30px;
 }
 
-.towbox .centerbox .threefotn {
+/* .towbox .centerbox .threefotn {
     position: absolute;
     top: -150px;
     left: 280px;
     text-align: right;
-}
+} */
 
 /* 第二页第二段 */
 
@@ -289,7 +321,23 @@
     height: 150px;
 }
 
+/* 改 */
 .towbox .centerbox .twofont {
+    top: 0px;
+    left: 300px;
+    overflow: hidden;
+    width: 510px;
+}
+
+.towbox .centerbox .twofont>div {
+    float: left;
+}
+
+.towbox .centerbox .twofont .oneimg {
+    margin-left: 10px;
+}
+
+/* .towbox .centerbox .twofont {
     position: relative;
 }
 
@@ -297,7 +345,7 @@
     position: absolute;
     top: -450px;
     left: 800px;
-}
+} */
 
 .towbox .centerbox .twofotn h3 {
     font-size: 40px;
@@ -313,12 +361,12 @@
     line-height: 30px;
 }
 
-.towbox .centerbox .twofotn {
+/* .towbox .centerbox .twofotn {
     position: absolute;
     top: -400px;
     left: 950px;
     text-align: left;
-}
+} */
 
 /* 第二页第四段 */
 
@@ -327,7 +375,23 @@
     height: 150px;
 }
 
+/* 改 */
 .towbox .centerbox .fourfont {
+    top: 260px;
+    left: 300px;
+    overflow: hidden;
+    width: 510px;
+}
+
+.towbox .centerbox .fourfont>div {
+    float: left;
+}
+
+.towbox .centerbox .fourfont .oneimg {
+    margin-left: 10px;
+}
+
+/* .towbox .centerbox .fourfont {
     position: relative;
 }
 
@@ -335,7 +399,7 @@
     position: absolute;
     top: -100px;
     left: 800px;
-}
+} */
 
 .towbox .centerbox .fourfotn h3 {
     font-size: 40px;
@@ -351,12 +415,12 @@
     line-height: 30px;
 }
 
-.towbox .centerbox .fourfotn {
+/* .towbox .centerbox .fourfotn {
     position: absolute;
     top: -150px;
     left: 950px;
     text-align: left;
-}
+} */
 
 /* 第三页 */
 
@@ -435,7 +499,7 @@
 }
 
 .threebox .jinengbox .jicenter {
-    width: 1000px;
+    width: 990px;
     height: 450px;
     /* border: 1px solid #000; */
     /* position: relative; */
@@ -762,7 +826,7 @@
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
@@ -772,14 +836,21 @@
     margin: 0 auto;
     margin-top: 60px;
     overflow: hidden;
+    position: relative;
+    height: 100%;
 }
 
 .appBox .swiper-container {
     width: 825px;
     height: 600px;
     overflow: visible;
-    margin-left: 230px;
-    margin-top: 12px;
+    /* margin-left: 230px; */
+    /* margin-top: 12px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* height: 100%; */
+    transform: translate(-50%, -50%);
 }
 
 .swiper-slide {
@@ -800,11 +871,12 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -180px;
-    margin-top: -330px;
+    margin-left: -200px;
+    margin-top: -315px;
     z-index: 2;
     pointer-events: none;
     width: 400px;
+    height: 630px;
 }
 
 .appBox .swiper-button-next,
